@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+<style>
+.paint-zone{fill:#fff;stroke:#3d3d5c;stroke-width:4;stroke-linejoin:round}
+.line{fill:none;stroke:#3d3d5c;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;pointer-events:none}
+.dot{fill:#3d3d5c;stroke:none;pointer-events:none}
+.shine{fill:#fff;stroke:none;pointer-events:none}
+.deco{stroke:#3d3d5c;stroke-width:4;stroke-linejoin:round;stroke-linecap:round;pointer-events:none}
+.stem{fill:none;stroke:#3d3d5c;stroke-width:16;stroke-linecap:round;pointer-events:none}
+.stem-in{fill:none;stroke:#6BCB77;stroke-width:8;stroke-linecap:round;pointer-events:none}
+</style>
+  <path class="paint-zone" data-number="1" data-labels="56.2,217;200,134;343.8,217" data-fs="17" d="M20,300 A180,180 0 0 1 380,300 L352,300 A152,152 0 0 0 48,300 Z"/>
+  <path class="paint-zone" data-number="6" data-labels="80.5,231;200,162;319.5,231" data-fs="17" d="M48,300 A152,152 0 0 1 352,300 L324,300 A124,124 0 0 0 76,300 Z"/>
+  <path class="paint-zone" data-number="2" data-labels="104.7,245;200,190;295.3,245" data-fs="17" d="M76,300 A124,124 0 0 1 324,300 L296,300 A96,96 0 0 0 104,300 Z"/>
+  <path class="paint-zone" data-number="4" data-labels="129,259;200,218;271,259" data-fs="17" d="M104,300 A96,96 0 0 1 296,300 L268,300 A68,68 0 0 0 132,300 Z"/>
+  <path class="paint-zone" data-number="3" data-labels="153.2,273;200,246;246.8,273" data-fs="17" d="M132,300 A68,68 0 0 1 268,300 L240,300 A40,40 0 0 0 160,300 Z"/>
+  <path class="paint-zone" data-number="5" data-labels="177.5,287;200,274;222.5,287" data-fs="17" d="M160,300 A40,40 0 0 1 240,300 L212,300 A12,12 0 0 0 188,300 Z"/>
+  <path class="paint-zone" data-number="7" d="M28,342 a20,20 0 0 1 8,-38 a26,26 0 0 1 48,-10 a22,22 0 0 1 36,20 a18,18 0 0 1 -6,28 Z"/>
+  <path class="paint-zone" data-number="7" d="M292,342 a20,20 0 0 1 8,-38 a26,26 0 0 1 48,-10 a22,22 0 0 1 36,20 a18,18 0 0 1 -6,28 Z"/>
+</svg>

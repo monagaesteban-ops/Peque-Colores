@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#9adbff">
+  <title>Pintar · PequeColores</title>
+  <link rel="icon" href="../assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet" href="../css/variables.css">
+  <link rel="stylesheet" href="../css/global.css">
+  <link rel="stylesheet" href="../css/coloring.css">
+</head>
+<body data-page="paint" data-root="../">
+  <main class="paint-page">
+    <header class="topbar">
+      <a class="icon-btn" href="dibujos.html" data-sfx aria-label="Volver a los dibujos">←</a>
+      <h1 class="topbar-title"><span class="emoji" id="title-emoji" aria-hidden="true"></span> <span id="title-text">Pintar</span></h1>
+      <button class="icon-btn" type="button" data-sound-toggle aria-label="Sonido">🔊</button>
+    </header>
+
+    <div class="progress" id="progress" role="progressbar" aria-label="Progreso" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+      <div class="progress-fill" id="progress-fill"></div>
+      <span class="progress-star" aria-hidden="true">⭐</span>
+    </div>
+
+    <section class="stage" aria-label="Dibujo">
+      <div class="canvas" id="canvas">
+        <div class="art" id="art"></div>
+        <div class="toast" id="toast" role="status" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <nav class="palette" id="palette" aria-label="Colores"></nav>
+  </main>
+
+  <div class="win" id="win" hidden role="dialog" aria-modal="true" aria-labelledby="win-title">
+    <div class="confetti" id="confetti" aria-hidden="true"></div>
+    <div class="win-card">
+      <div class="win-emoji" id="win-emoji" aria-hidden="true">🎉</div>
+      <h2 class="win-title" id="win-title">¡Lo lograste!</h2>
+      <div class="win-stars" aria-hidden="true"><span>⭐</span><span>⭐</span><span>⭐</span></div>
+      <div class="win-actions">
+        <a class="icon-btn" href="dibujos.html" data-sfx aria-label="Ver todos los dibujos">🖼️</a>
+        <button class="icon-btn" type="button" id="win-again" aria-label="Pintar de nuevo">🔁</button>
+        <a class="btn" id="win-next" href="pintar.html?id=1" data-sfx>Otro <span aria-hidden="true">➡️</span></a>
+      </div>
+    </div>
+  </div>
+
+  <noscript><p style="padding:20px;text-align:center">PequeColores necesita JavaScript para funcionar.</p></noscript>
+
+  <script src="../data/drawings.js"></script>
+  <script src="../data/svg-bundle.js"></script>
+  <script src="../js/storage.js"></script>
+  <script src="../js/sounds.js"></script>
+  <script src="../js/numbers.js"></script>
+  <script src="../js/app.js"></script>
+  <script src="../js/coloring.js"></script>
+</body>
+</html>

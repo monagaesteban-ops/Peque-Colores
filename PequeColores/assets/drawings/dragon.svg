@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+<style>
+.paint-zone{fill:#fff;stroke:#3d3d5c;stroke-width:4;stroke-linejoin:round}
+.line{fill:none;stroke:#3d3d5c;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;pointer-events:none}
+.dot{fill:#3d3d5c;stroke:none;pointer-events:none}
+.shine{fill:#fff;stroke:none;pointer-events:none}
+.deco{stroke:#3d3d5c;stroke-width:4;stroke-linejoin:round;stroke-linecap:round;pointer-events:none}
+.stem{fill:none;stroke:#3d3d5c;stroke-width:16;stroke-linecap:round;pointer-events:none}
+.stem-in{fill:none;stroke:#6BCB77;stroke-width:8;stroke-linecap:round;pointer-events:none}
+</style>
+  <path class="paint-zone" data-number="5" data-labels="80,160" d="M125 250C60 200 20 140 40 105C70 150 100 140 112 135C112 170 140 190 150 215Z"/>
+  <path class="paint-zone" data-number="5" data-labels="320,160" d="M275 250C340 200 380 140 360 105C330 150 300 140 288 135C288 170 260 190 250 215Z"/>
+  <path class="paint-zone" data-number="4" data-labels="340,347" d="M285,332 C340,336 362,305 356,268 L384,268 C392,335 348,380 282,368 Z"/>
+  <path class="paint-zone" data-number="1" data-labels="370,259" data-fs="12" d="M348,272 L370,228 L392,272 Z"/>
+  <ellipse class="paint-zone" data-number="6" data-labels="140,368" data-fs="14" cx="140" cy="368" rx="36" ry="20"/>
+  <ellipse class="paint-zone" data-number="6" data-labels="260,368" data-fs="14" cx="260" cy="368" rx="36" ry="20"/>
+  <ellipse class="paint-zone" data-number="4" data-labels="130,270;270,270;200,205" cx="200" cy="270" rx="105" ry="95"/>
+  <ellipse class="paint-zone" data-number="2" data-labels="200,285" cx="200" cy="295" rx="65" ry="68"/>
+  <path class="line" d="M155,262 H245 M148,292 H252 M155,322 H245"/>
+  <path class="paint-zone" data-number="6" data-labels="153,78" data-fs="13" d="M150,100 L138,42 L188,82 Z"/>
+  <path class="paint-zone" data-number="6" data-labels="247,78" data-fs="13" d="M250,100 L262,42 L212,82 Z"/>
+  <circle class="paint-zone" data-number="4" data-labels="200,100;150,140;250,140" cx="200" cy="140" r="70"/>
+  <ellipse class="paint-zone" data-number="2" data-labels="200,170" cx="200" cy="168" rx="38" ry="26"/>
+  <circle class="paint-zone" data-number="7" data-fs="13" cx="152" cy="165" r="13"/>
+  <circle class="paint-zone" data-number="7" data-fs="13" cx="248" cy="165" r="13"/>
+  <circle class="dot" cx="174" cy="122" r="8"/>
+  <circle class="dot" cx="226" cy="122" r="8"/>
+  <circle class="shine" cx="171" cy="119" r="3"/>
+  <circle class="shine" cx="223" cy="119" r="3"/>
+  <path class="line" d="M186,176 Q200,187 214,176"/>
+</svg>

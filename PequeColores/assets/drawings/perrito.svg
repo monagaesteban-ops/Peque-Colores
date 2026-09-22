@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+<style>
+.paint-zone{fill:#fff;stroke:#3d3d5c;stroke-width:4;stroke-linejoin:round}
+.line{fill:none;stroke:#3d3d5c;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;pointer-events:none}
+.dot{fill:#3d3d5c;stroke:none;pointer-events:none}
+.shine{fill:#fff;stroke:none;pointer-events:none}
+.deco{stroke:#3d3d5c;stroke-width:4;stroke-linejoin:round;stroke-linecap:round;pointer-events:none}
+.stem{fill:none;stroke:#3d3d5c;stroke-width:16;stroke-linecap:round;pointer-events:none}
+.stem-in{fill:none;stroke:#6BCB77;stroke-width:8;stroke-linecap:round;pointer-events:none}
+</style>
+  <ellipse class="paint-zone" data-number="6" data-labels="135,382;265,382" cx="200" cy="372" rx="100" ry="70"/>
+  <path class="paint-zone" data-number="3" data-labels="150,330;250,330" data-fs="16" d="M125,305 Q200,340 275,305 L282,335 Q200,372 118,335 Z"/>
+  <circle class="paint-zone" data-number="2" data-fs="13" cx="200" cy="370" r="13"/>
+  <ellipse class="paint-zone" data-number="8" cx="108" cy="175" rx="38" ry="72" transform="rotate(25 108 175)"/>
+  <ellipse class="paint-zone" data-number="8" cx="292" cy="175" rx="38" ry="72" transform="rotate(-25 292 175)"/>
+  <circle class="paint-zone" data-number="6" data-labels="200,150;130,215;270,215" cx="200" cy="210" r="105"/>
+  <ellipse class="paint-zone" data-number="8" data-labels="256,170" data-fs="13" cx="240" cy="188" rx="32" ry="30"/>
+  <ellipse class="paint-zone" data-number="2" data-labels="165,262;235,262" cx="200" cy="262" rx="55" ry="42"/>
+  <ellipse class="paint-zone" data-number="8" cx="200" cy="238" rx="24" ry="16"/>
+  <path class="paint-zone" data-number="7" data-labels="200,296" data-fs="13" d="M184,286 h32 v14 a16,16 0 0 1 -32,0 Z"/>
+  <path class="line" d="M200,252 V272 M164,272 Q184,292 200,278 Q216,292 236,272"/>
+  <circle class="dot" cx="162" cy="195" r="10"/>
+  <circle class="dot" cx="240" cy="192" r="10"/>
+  <circle class="shine" cx="158" cy="191" r="3"/>
+  <circle class="shine" cx="236" cy="188" r="3"/>
+</svg>

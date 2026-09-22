@@ -1,0 +1,79 @@
+body {
+  font-family: var(--font);
+  font-weight: 800;
+  color: var(--ink);
+  background: linear-gradient(180deg, var(--sky-1) 0%, var(--sky-2) 48%, var(--sky-3) 100%) fixed;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-user-select: none;
+  user-select: none;
+  overscroll-behavior: none;
+}
+
+:focus-visible { outline: 5px solid #fff; outline-offset: 3px; box-shadow: 0 0 0 8px var(--ink); }
+
+/* Botón calcomanía */
+.btn {
+  --btn-bg: #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+  min-height: 76px;
+  padding: 0 34px;
+  border: var(--stroke) solid var(--ink);
+  border-radius: 999px;
+  background: var(--btn-bg);
+  color: var(--ink);
+  font-size: clamp(1.5rem, 6vw, 2rem);
+  font-weight: 900;
+  box-shadow: 0 8px 0 var(--ink);
+  transition: transform 0.08s ease, box-shadow 0.08s ease;
+}
+.btn:active { transform: translateY(6px); box-shadow: 0 2px 0 var(--ink); }
+.btn .emoji { font-size: 1.25em; line-height: 1; }
+
+/* Botón redondo (volver, sonido) */
+.icon-btn {
+  display: grid;
+  place-items: center;
+  width: 60px;
+  height: 60px;
+  border: var(--stroke) solid var(--ink);
+  border-radius: 50%;
+  background: #fff;
+  font-size: 1.7rem;
+  line-height: 1;
+  box-shadow: 0 5px 0 var(--ink);
+  transition: transform 0.08s ease, box-shadow 0.08s ease;
+}
+.icon-btn:active { transform: translateY(4px); box-shadow: 0 1px 0 var(--ink); }
+.icon-btn[aria-pressed="true"] { background: #e7e7f0; }
+
+/* Barra superior compartida */
+.topbar {
+  display: grid;
+  grid-template-columns: 60px 1fr 60px;
+  align-items: center;
+  gap: 10px;
+  padding: max(env(safe-area-inset-top), 12px) var(--pad) 8px;
+}
+.topbar-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: clamp(1.3rem, 5vw, 1.9rem);
+  font-weight: 900;
+  text-align: center;
+}
+.topbar-title .emoji { font-size: 1.3em; }
+
+.sr-only {
+  position: absolute; width: 1px; height: 1px; overflow: hidden;
+  clip: rect(0 0 0 0); white-space: nowrap;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; }
+}

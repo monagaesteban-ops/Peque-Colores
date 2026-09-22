@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="PequeColores: colorear por números para niños de 2 a 5 años. Sin anuncios, sin registro.">
+  <meta name="theme-color" content="#9adbff">
+  <title>PequeColores</title>
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/menu.css">
+  <link rel="stylesheet" href="css/coloring.css">
+</head>
+<body data-page="home" data-root="">
+  <main class="home">
+    <header class="home-top">
+      <button class="icon-btn" type="button" data-sound-toggle aria-label="Sonido">🔊</button>
+      <h1 class="logo" aria-label="PequeColores">
+        <span class="logo-word">
+        <span style="--c: var(--c1); --y: 0; --r: -4deg" aria-hidden="true">P</span>
+        <span style="--c: var(--c6); --y: -0.06em; --r: 3deg" aria-hidden="true">e</span>
+        <span style="--c: var(--c2); --y: 0.04em; --r: -2deg" aria-hidden="true">q</span>
+        <span style="--c: var(--c4); --y: -0.04em; --r: 4deg" aria-hidden="true">u</span>
+        <span style="--c: var(--c3); --y: 0.05em; --r: -3deg" aria-hidden="true">e</span>
+        </span>
+        <span class="logo-word">
+        <span style="--c: var(--c5); --y: -0.05em; --r: 2deg" aria-hidden="true">C</span>
+        <span style="--c: var(--c7); --y: 0.02em; --r: -4deg" aria-hidden="true">o</span>
+        <span style="--c: var(--c1); --y: -0.06em; --r: 3deg" aria-hidden="true">l</span>
+        <span style="--c: var(--c6); --y: 0.04em; --r: -2deg" aria-hidden="true">o</span>
+        <span style="--c: var(--c2); --y: -0.03em; --r: 4deg" aria-hidden="true">r</span>
+        <span style="--c: var(--c4); --y: 0.05em; --r: -3deg" aria-hidden="true">e</span>
+        <span style="--c: var(--c3); --y: -0.04em; --r: 2deg" aria-hidden="true">s</span>
+        </span>
+      </h1>
+      <p class="tagline">¡Vamos a pintar! 🎨</p>
+    </header>
+
+    <div class="hero" id="hero" role="presentation"></div>
+
+    <nav class="home-actions" aria-label="Menú principal">
+      <a class="btn btn-paint" id="btn-paint" href="pages/pintar.html?id=1" data-sfx>
+        <span class="emoji" aria-hidden="true">🎨</span> Pintar
+      </a>
+      <a class="btn btn-gallery" href="pages/dibujos.html" data-sfx>
+        <span class="emoji" aria-hidden="true">🖼️</span> Dibujos
+      </a>
+    </nav>
+  </main>
+
+  <noscript><p style="padding:20px;text-align:center">PequeColores necesita JavaScript para funcionar.</p></noscript>
+
+  <script src="data/drawings.js"></script>
+  <script src="data/svg-bundle.js"></script>
+  <script src="js/storage.js"></script>
+  <script src="js/sounds.js"></script>
+  <script src="js/numbers.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

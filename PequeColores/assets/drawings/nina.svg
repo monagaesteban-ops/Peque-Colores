@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+<style>
+.paint-zone{fill:#fff;stroke:#3d3d5c;stroke-width:4;stroke-linejoin:round}
+.line{fill:none;stroke:#3d3d5c;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;pointer-events:none}
+.dot{fill:#3d3d5c;stroke:none;pointer-events:none}
+.shine{fill:#fff;stroke:none;pointer-events:none}
+.deco{stroke:#3d3d5c;stroke-width:4;stroke-linejoin:round;stroke-linecap:round;pointer-events:none}
+.stem{fill:none;stroke:#3d3d5c;stroke-width:16;stroke-linecap:round;pointer-events:none}
+.stem-in{fill:none;stroke:#6BCB77;stroke-width:8;stroke-linecap:round;pointer-events:none}
+</style>
+  <path class="paint-zone" data-number="4" data-labels="60,392;340,392" data-fs="13" d="M0,378 Q100,362 200,378 T400,378 V400 H0Z"/>
+  <circle class="paint-zone" data-number="8" cx="138" cy="145" r="24"/>
+  <circle class="paint-zone" data-number="8" cx="262" cy="145" r="24"/>
+  <rect class="paint-zone" data-number="6" data-labels="180,350" data-fs="13" x="170" y="315" width="20" height="66" rx="6"/>
+  <rect class="paint-zone" data-number="6" data-labels="220,350" data-fs="13" x="210" y="315" width="20" height="66" rx="6"/>
+  <ellipse class="paint-zone" data-number="1" data-fs="12" cx="178" cy="388" rx="22" ry="11"/>
+  <ellipse class="paint-zone" data-number="1" data-fs="12" cx="222" cy="388" rx="22" ry="11"/>
+  <path class="paint-zone" data-number="7" data-labels="200,215;150,300;250,300" d="M162,180 L238,180 L280,322 L120,322 Z"/>
+  <path class="paint-zone" data-number="3" data-labels="170,248;230,248" data-fs="14" d="M144,238 L256,238 L261,258 L139,258 Z"/>
+  <path class="paint-zone" data-number="6" data-labels="136,232" data-fs="14" d="M166,186 L108,250 L126,268 L186,204 Z"/>
+  <path class="paint-zone" data-number="6" data-labels="264,232" data-fs="14" d="M234,186 L292,250 L274,268 L214,204 Z"/>
+  <circle class="paint-zone" data-number="6" data-labels="166,150;234,150" data-fs="13" cx="200" cy="125" r="52"/>
+  <path class="paint-zone" data-number="8" data-labels="200,80;160,105;240,105" data-fs="13" d="M150,118 Q152,68 200,68 Q248,68 250,118 Q222,92 200,98 Q178,92 150,118 Z"/>
+  <circle class="dot" cx="184" cy="128" r="5"/>
+  <circle class="dot" cx="216" cy="128" r="5"/>
+  <path class="line" d="M186,146 Q200,158 214,146"/>
+  <circle class="paint-zone" data-number="1" data-labels="335,319;335,351" data-fs="14" cx="335" cy="335" r="30"/>
+  <path class="line" d="M306,335 H364"/>
+</svg>

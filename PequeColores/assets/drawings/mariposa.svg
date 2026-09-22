@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+<style>
+.paint-zone{fill:#fff;stroke:#3d3d5c;stroke-width:4;stroke-linejoin:round}
+.line{fill:none;stroke:#3d3d5c;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;pointer-events:none}
+.dot{fill:#3d3d5c;stroke:none;pointer-events:none}
+.shine{fill:#fff;stroke:none;pointer-events:none}
+.deco{stroke:#3d3d5c;stroke-width:4;stroke-linejoin:round;stroke-linecap:round;pointer-events:none}
+.stem{fill:none;stroke:#3d3d5c;stroke-width:16;stroke-linecap:round;pointer-events:none}
+.stem-in{fill:none;stroke:#6BCB77;stroke-width:8;stroke-linecap:round;pointer-events:none}
+</style>
+  <path class="paint-zone" data-number="5" data-labels="150,158" d="M192 190C150 80 60 60 50 130C45 190 120 215 192 205Z"/>
+  <path class="paint-zone" data-number="5" data-labels="250,158" d="M208 190C250 80 340 60 350 130C355 190 280 215 208 205Z"/>
+  <path class="paint-zone" data-number="6" data-labels="152,262" d="M192 215C120 215 60 250 80 300C100 340 170 310 192 250Z"/>
+  <path class="paint-zone" data-number="6" data-labels="248,262" d="M208 215C280 215 340 250 320 300C300 340 230 310 208 250Z"/>
+  <circle class="paint-zone" data-number="2" data-fs="14" cx="108" cy="130" r="18"/>
+  <circle class="paint-zone" data-number="2" data-fs="14" cx="292" cy="130" r="18"/>
+  <circle class="paint-zone" data-number="3" data-fs="13" cx="118" cy="275" r="15"/>
+  <circle class="paint-zone" data-number="3" data-fs="13" cx="282" cy="275" r="15"/>
+  <ellipse class="paint-zone" data-number="8" data-labels="200,230" data-fs="15" cx="200" cy="215" rx="13" ry="68"/>
+  <circle class="paint-zone" data-number="8" data-fs="14" cx="200" cy="132" r="17"/>
+  <path class="line" d="M194,118 Q180,85 162,74 M206,118 Q220,85 238,74"/>
+  <circle class="dot" cx="162" cy="74" r="5"/>
+  <circle class="dot" cx="238" cy="74" r="5"/>
+</svg>

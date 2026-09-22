@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+<style>
+.paint-zone{fill:#fff;stroke:#3d3d5c;stroke-width:4;stroke-linejoin:round}
+.line{fill:none;stroke:#3d3d5c;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;pointer-events:none}
+.dot{fill:#3d3d5c;stroke:none;pointer-events:none}
+.shine{fill:#fff;stroke:none;pointer-events:none}
+.deco{stroke:#3d3d5c;stroke-width:4;stroke-linejoin:round;stroke-linecap:round;pointer-events:none}
+.stem{fill:none;stroke:#3d3d5c;stroke-width:16;stroke-linecap:round;pointer-events:none}
+.stem-in{fill:none;stroke:#6BCB77;stroke-width:8;stroke-linecap:round;pointer-events:none}
+</style>
+  <circle class="paint-zone" data-number="2" cx="58" cy="58" r="28"/>
+  <path class="line" d="M96,58 L110,58 M84.9,84.9 L94.8,94.8 M58,96 L58,110 M31.1,84.9 L21.2,94.8 M20,58 L6,58 M31.1,31.1 L21.2,21.2 M58,20 L58,6 M84.9,31.1 L94.8,21.2"/>
+  <path class="paint-zone" data-number="3" d="M310,67 a15,15 0 0 1 6,-28.5 a19.5,19.5 0 0 1 36,-7.5 a16.5,16.5 0 0 1 27,15 a13.5,13.5 0 0 1 -4.5,21 Z"/>
+  <path class="paint-zone" data-number="4" data-labels="60,372;340,372" d="M0,325 Q100,295 200,330 T400,320 V400 H0Z"/>
+  <path class="paint-zone" data-number="8" data-labels="200,300" d="M180,220 L178,322 Q176,345 148,350 L252,350 Q224,345 222,322 L220,220 Z"/>
+  <path class="paint-zone" data-number="4" data-labels="200,62;118,150;282,150" d="M200,40 A45,45 0 0 1 270.7,65.7 A45,45 0 0 1 308.3,130.9 A45,45 0 0 1 295.3,205 A45,45 0 0 1 237.6,253.4 A45,45 0 0 1 162.4,253.4 A45,45 0 0 1 104.7,205 A45,45 0 0 1 91.7,130.9 A45,45 0 0 1 129.3,65.7 A45,45 0 0 1 200,40 Z"/>
+  <circle class="paint-zone" data-number="1" data-fs="15" cx="150" cy="120" r="15"/>
+  <circle class="paint-zone" data-number="1" data-fs="15" cx="250" cy="100" r="15"/>
+  <circle class="paint-zone" data-number="1" data-fs="15" cx="255" cy="180" r="15"/>
+  <circle class="paint-zone" data-number="1" data-fs="15" cx="150" cy="200" r="15"/>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+<style>
+.paint-zone{fill:#fff;stroke:#3d3d5c;stroke-width:4;stroke-linejoin:round}
+.line{fill:none;stroke:#3d3d5c;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;pointer-events:none}
+.dot{fill:#3d3d5c;stroke:none;pointer-events:none}
+.shine{fill:#fff;stroke:none;pointer-events:none}
+.deco{stroke:#3d3d5c;stroke-width:4;stroke-linejoin:round;stroke-linecap:round;pointer-events:none}
+.stem{fill:none;stroke:#3d3d5c;stroke-width:16;stroke-linecap:round;pointer-events:none}
+.stem-in{fill:none;stroke:#6BCB77;stroke-width:8;stroke-linecap:round;pointer-events:none}
+</style>
+  <path class="paint-zone" data-number="5" data-labels="92,240" d="M130 135C85 120 52 190 62 260Q56 298 74 318Q90 344 110 322Q120 338 134 316Q118 270 132 222Z"/>
+  <path class="paint-zone" data-number="5" data-labels="308,240" d="M270 135C315 120 348 190 338 260Q344 298 326 318Q310 344 290 322Q280 338 266 316Q282 270 268 222Z"/>
+  <path class="paint-zone" data-number="7" data-labels="130,120" d="M130,165 L108,80 L178,125 Z"/>
+  <path class="paint-zone" data-number="7" data-labels="270,120" d="M270,165 L292,80 L222,125 Z"/>
+  <path class="paint-zone" data-number="2" data-labels="200,88" data-fs="14" d="M200,18 L174,142 L226,142 Z"/>
+  <path class="line" d="M190,62 L211,72 M186,86 L215,96 M182,110 L219,120"/>
+  <ellipse class="paint-zone" data-number="7" data-labels="200,190;138,292;262,292" data-fs="16" cx="200" cy="250" rx="80" ry="98"/>
+  <path class="paint-zone" data-number="3" data-labels="200,125" d="M148,128 Q200,78 252,128 Q238,160 200,152 Q162,160 148,128 Z"/>
+  <ellipse class="paint-zone" data-number="6" data-labels="170,315;230,315" cx="200" cy="315" rx="50" ry="32"/>
+  <circle class="dot" cx="160" cy="238" r="11"/>
+  <circle class="dot" cx="240" cy="238" r="11"/>
+  <circle class="shine" cx="156" cy="234" r="4"/>
+  <circle class="shine" cx="236" cy="234" r="4"/>
+  <path class="line" d="M146,222 L136,214 M152,216 L146,205 M254,222 L264,214 M248,216 L254,205"/>
+  <circle class="dot" cx="186" cy="318" r="4"/>
+  <circle class="dot" cx="214" cy="318" r="4"/>
+  <path class="line" d="M180,335 Q200,348 220,335"/>
+  <path class="paint-zone" data-number="2" d="M58,42 L63.9,57.9 L80.8,58.6 L67.5,69.1 L72.1,85.4 L58,76 L43.9,85.4 L48.5,69.1 L35.2,58.6 L52.1,57.9 Z"/>
+  <path class="paint-zone" data-number="2" d="M345,56 L352.1,74.3 L371.6,75.3 L356.4,87.7 L361.5,106.7 L345,96 L328.5,106.7 L333.6,87.7 L318.4,75.3 L337.9,74.3 Z"/>
+  <path class="paint-zone" data-number="2" d="M348,352 L352.7,365.5 L367,365.8 L355.6,374.5 L359.8,388.2 L348,380 L336.2,388.2 L340.4,374.5 L329,365.8 L343.3,365.5 Z"/>
+</svg>

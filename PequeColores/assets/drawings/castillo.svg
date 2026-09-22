@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+<style>
+.paint-zone{fill:#fff;stroke:#3d3d5c;stroke-width:4;stroke-linejoin:round}
+.line{fill:none;stroke:#3d3d5c;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;pointer-events:none}
+.dot{fill:#3d3d5c;stroke:none;pointer-events:none}
+.shine{fill:#fff;stroke:none;pointer-events:none}
+.deco{stroke:#3d3d5c;stroke-width:4;stroke-linejoin:round;stroke-linecap:round;pointer-events:none}
+.stem{fill:none;stroke:#3d3d5c;stroke-width:16;stroke-linecap:round;pointer-events:none}
+.stem-in{fill:none;stroke:#6BCB77;stroke-width:8;stroke-linecap:round;pointer-events:none}
+</style>
+  <circle class="paint-zone" data-number="2" data-fs="15" cx="32" cy="40" r="22"/>
+  <path class="line" d="M62,40 L72,40 M53.2,61.2 L60.3,68.3 M32,70 L32,80 M10.8,61.2 L3.7,68.3 M2,40 L-8,40 M10.8,18.8 L3.7,11.7 M32,10 L32,0 M53.2,18.8 L60.3,11.7"/>
+  <path class="paint-zone" data-number="3" d="M303,58 a16,16 0 0 1 6.4,-30.4 a20.8,20.8 0 0 1 38.4,-8 a17.6,17.6 0 0 1 28.8,16 a14.4,14.4 0 0 1 -4.8,22.4 Z"/>
+  <path class="paint-zone" data-number="7" data-labels="90,290" d="M60,360 V150 H120 V360 Z"/>
+  <path class="paint-zone" data-number="7" data-labels="310,290" d="M280,360 V150 H340 V360 Z"/>
+  <path class="paint-zone" data-number="1" data-labels="90,125" data-fs="15" d="M50,154 L90,70 L130,154 Z"/>
+  <path class="paint-zone" data-number="1" data-labels="310,125" data-fs="15" d="M270,154 L310,70 L350,154 Z"/>
+  <path class="paint-zone" data-number="5" data-labels="200,220;145,320;255,320" d="M130,360 V150 H150 V170 H170 V150 H190 V170 H210 V150 H230 V170 H250 V150 H270 V360 Z"/>
+  <path class="line" d="M200,170 V72"/>
+  <path class="paint-zone" data-number="2" data-labels="212,88" data-fs="12" d="M200,72 L246,88 L200,104 Z"/>
+  <path class="paint-zone" data-number="8" data-labels="200,320" d="M175,360 V305 Q175,272 200,272 Q225,272 225,305 V360 Z"/>
+  <circle class="paint-zone" data-number="3" data-fs="13" cx="90" cy="225" r="13"/>
+  <circle class="paint-zone" data-number="3" data-fs="13" cx="310" cy="225" r="13"/>
+  <circle class="paint-zone" data-number="3" data-fs="13" cx="152" cy="235" r="13"/>
+  <circle class="paint-zone" data-number="3" data-fs="13" cx="248" cy="235" r="13"/>
+  <path class="paint-zone" data-number="4" data-labels="60,380;340,380" data-fs="14" d="M0,358 H400 V400 H0Z"/>
+</svg>

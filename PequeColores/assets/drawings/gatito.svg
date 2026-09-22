@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+<style>
+.paint-zone{fill:#fff;stroke:#3d3d5c;stroke-width:4;stroke-linejoin:round}
+.line{fill:none;stroke:#3d3d5c;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;pointer-events:none}
+.dot{fill:#3d3d5c;stroke:none;pointer-events:none}
+.shine{fill:#fff;stroke:none;pointer-events:none}
+.deco{stroke:#3d3d5c;stroke-width:4;stroke-linejoin:round;stroke-linecap:round;pointer-events:none}
+.stem{fill:none;stroke:#3d3d5c;stroke-width:16;stroke-linecap:round;pointer-events:none}
+.stem-in{fill:none;stroke:#6BCB77;stroke-width:8;stroke-linecap:round;pointer-events:none}
+</style>
+  <ellipse class="paint-zone" data-number="6" data-labels="130,388;270,388" cx="200" cy="390" rx="100" ry="65"/>
+  <path class="paint-zone" data-number="6" data-labels="140,102" data-fs="12" d="M105,175 L120,70 L188,128 Z"/>
+  <path class="paint-zone" data-number="6" data-labels="260,102" data-fs="12" d="M295,175 L280,70 L212,128 Z"/>
+  <path class="paint-zone" data-number="7" data-labels="141,132" data-fs="11" d="M124,148 L128,100 L163,130 Z"/>
+  <path class="paint-zone" data-number="7" data-labels="259,132" data-fs="11" d="M276,148 L272,100 L237,130 Z"/>
+  <circle class="paint-zone" data-number="6" data-labels="200,168;112,225;288,225" cx="200" cy="220" r="100"/>
+  <path class="line" d="M200,125 V150 M172,130 L178,152 M228,130 L222,152"/>
+  <ellipse class="paint-zone" data-number="2" data-labels="170,268;230,268" cx="200" cy="268" rx="50" ry="32"/>
+  <ellipse class="paint-zone" data-number="4" data-labels="146,208" data-fs="12" cx="158" cy="208" rx="22" ry="26"/>
+  <ellipse class="paint-zone" data-number="4" data-labels="254,208" data-fs="12" cx="242" cy="208" rx="22" ry="26"/>
+  <ellipse class="dot" cx="158" cy="208" rx="6" ry="17"/>
+  <ellipse class="dot" cx="242" cy="208" rx="6" ry="17"/>
+  <circle class="shine" cx="155" cy="200" r="3"/>
+  <circle class="shine" cx="239" cy="200" r="3"/>
+  <path class="paint-zone" data-number="7" data-labels="200,253" data-fs="11" d="M187,248 L213,248 L200,263 Z"/>
+  <path class="line" d="M200,263 V275 M200,275 Q186,288 172,276 M200,275 Q214,288 228,276"/>
+  <path class="line" d="M120,255 L150,262 M118,280 L150,275 M280,255 L250,262 M282,280 L250,275"/>
+  <path class="paint-zone" data-number="5" data-labels="170,330" data-fs="14" d="M200,330 L152,304 L152,356 Z"/>
+  <path class="paint-zone" data-number="5" data-labels="230,330" data-fs="14" d="M200,330 L248,304 L248,356 Z"/>
+  <circle class="paint-zone" data-number="1" data-fs="13" cx="200" cy="330" r="12"/>
+</svg>

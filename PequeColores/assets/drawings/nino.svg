@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+<style>
+.paint-zone{fill:#fff;stroke:#3d3d5c;stroke-width:4;stroke-linejoin:round}
+.line{fill:none;stroke:#3d3d5c;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;pointer-events:none}
+.dot{fill:#3d3d5c;stroke:none;pointer-events:none}
+.shine{fill:#fff;stroke:none;pointer-events:none}
+.deco{stroke:#3d3d5c;stroke-width:4;stroke-linejoin:round;stroke-linecap:round;pointer-events:none}
+.stem{fill:none;stroke:#3d3d5c;stroke-width:16;stroke-linecap:round;pointer-events:none}
+.stem-in{fill:none;stroke:#6BCB77;stroke-width:8;stroke-linecap:round;pointer-events:none}
+</style>
+  <path class="paint-zone" data-number="4" data-labels="60,392;340,390" data-fs="13" d="M0,380 Q100,360 200,378 T400,372 V400 H0Z"/>
+  <path class="paint-zone" data-number="7" d="M58,76 a16,16 0 0 1 6.4,-30.4 a20.8,20.8 0 0 1 38.4,-8 a17.6,17.6 0 0 1 28.8,16 a14.4,14.4 0 0 1 -4.8,22.4 Z"/>
+  <circle class="paint-zone" data-number="2" cx="355" cy="335" r="26"/>
+  <path class="line" d="M389,335 L401,335 M379,359 L387.5,367.5 M355,369 L355,381 M331,359 L322.5,367.5 M321,335 L309,335 M331,311 L322.5,302.5 M355,301 L355,289 M379,311 L387.5,302.5"/>
+  <path class="paint-zone" data-number="1" data-labels="300,84" d="M280,30 L340,110 L280,110 Z"/>
+  <path class="paint-zone" data-number="2" data-labels="300,140" d="M340,110 L280,210 L280,110 Z"/>
+  <path class="paint-zone" data-number="3" data-labels="260,140" d="M280,210 L220,110 L280,110 Z"/>
+  <path class="paint-zone" data-number="5" data-labels="260,84" d="M220,110 L280,30 L280,110 Z"/>
+  <path class="line" d="M280,30 V210 M220,110 H340"/>
+  <path class="line" d="M280,210 Q240,290 192,268"/>
+  <rect class="paint-zone" data-number="6" data-labels="116,388" data-fs="12" x="105" y="375" width="22" height="25" rx="6"/>
+  <rect class="paint-zone" data-number="6" data-labels="144,388" data-fs="12" x="133" y="375" width="22" height="25" rx="6"/>
+  <rect class="paint-zone" data-number="5" data-labels="130,364" data-fs="15" x="100" y="348" width="60" height="30" rx="8"/>
+  <rect class="paint-zone" data-number="3" data-labels="130,320" x="100" y="285" width="60" height="70" rx="12"/>
+  <path class="paint-zone" data-number="6" data-labels="180,282" data-fs="12" d="M158,292 L190,262 L200,272 L166,308 Z"/>
+  <path class="paint-zone" data-number="6" data-labels="98,320" data-fs="12" d="M102,292 L82,335 L96,343 L112,305 Z"/>
+  <circle class="paint-zone" data-number="6" data-labels="106,256;154,256" data-fs="12" cx="130" cy="240" r="42"/>
+  <path class="paint-zone" data-number="8" data-labels="130,206" data-fs="12" d="M88,238 Q90,192 130,192 Q170,192 172,238 Q150,216 130,222 Q110,216 88,238 Z"/>
+  <circle class="dot" cx="117" cy="244" r="4"/>
+  <circle class="dot" cx="143" cy="244" r="4"/>
+  <path class="line" d="M118,258 Q130,268 142,258"/>
+</svg>

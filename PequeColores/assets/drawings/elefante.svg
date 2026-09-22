@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+<style>
+.paint-zone{fill:#fff;stroke:#3d3d5c;stroke-width:4;stroke-linejoin:round}
+.line{fill:none;stroke:#3d3d5c;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;pointer-events:none}
+.dot{fill:#3d3d5c;stroke:none;pointer-events:none}
+.shine{fill:#fff;stroke:none;pointer-events:none}
+.deco{stroke:#3d3d5c;stroke-width:4;stroke-linejoin:round;stroke-linecap:round;pointer-events:none}
+.stem{fill:none;stroke:#3d3d5c;stroke-width:16;stroke-linecap:round;pointer-events:none}
+.stem-in{fill:none;stroke:#6BCB77;stroke-width:8;stroke-linecap:round;pointer-events:none}
+</style>
+  <circle class="paint-zone" data-number="3" cx="90" cy="178" r="70"/>
+  <circle class="paint-zone" data-number="3" cx="310" cy="178" r="70"/>
+  <circle class="paint-zone" data-number="7" cx="90" cy="178" r="46"/>
+  <circle class="paint-zone" data-number="7" cx="310" cy="178" r="46"/>
+  <circle class="paint-zone" data-number="3" data-labels="200,140;150,215;250,215" cx="200" cy="195" r="95"/>
+  <path class="paint-zone" data-number="2" data-labels="160,312" data-fs="12" d="M172,272 Q138,318 150,346 Q178,322 176,290 Z"/>
+  <path class="paint-zone" data-number="2" data-labels="240,312" data-fs="12" d="M228,272 Q262,318 250,346 Q222,322 224,290 Z"/>
+  <path class="paint-zone" data-number="3" data-labels="200,300" d="M170,245 H230 V330 Q230,372 200,372 Q170,372 170,330 Z"/>
+  <path class="line" d="M172,292 H190 M172,312 H190 M172,332 H188"/>
+  <circle class="dot" cx="163" cy="178" r="8"/>
+  <circle class="dot" cx="237" cy="178" r="8"/>
+  <circle class="shine" cx="160" cy="175" r="3"/>
+  <circle class="shine" cx="234" cy="175" r="3"/>
+  <path class="paint-zone" data-number="1" data-labels="200,85" d="M162,110 L200,30 L238,110 Z"/>
+  <circle class="paint-zone" data-number="2" data-fs="13" cx="200" cy="30" r="15"/>
+  <path class="line" d="M176,90 L224,90"/>
+</svg>

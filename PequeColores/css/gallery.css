@@ -1,0 +1,65 @@
+/* Galería de dibujos */
+.gallery-page { max-width: 1000px; margin: 0 auto; padding-bottom: max(env(safe-area-inset-bottom), 28px); }
+
+.gallery { display: grid; gap: 30px; padding: 12px var(--pad) 12px; }
+
+.cat-head {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 14px;
+  padding: 6px 20px 6px 12px;
+  border: var(--stroke) solid var(--ink);
+  border-radius: 999px;
+  background: var(--tint);
+  font-size: clamp(1.3rem, 5vw, 1.7rem);
+  font-weight: 900;
+  box-shadow: 0 4px 0 var(--ink);
+}
+.cat-head .emoji { font-size: 1.4em; }
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(128px, 1fr));
+  gap: 16px;
+}
+
+.card {
+  position: relative;
+  display: grid;
+  gap: 6px;
+  padding: 10px 10px 12px;
+  border: var(--stroke) solid var(--ink);
+  border-radius: var(--radius-md);
+  background: var(--tint);
+  box-shadow: 0 6px 0 var(--ink);
+  text-align: center;
+  transition: transform 0.08s ease, box-shadow 0.08s ease;
+}
+.card:active { transform: translateY(5px); box-shadow: 0 1px 0 var(--ink); }
+.card img {
+  width: 100%;
+  aspect-ratio: 1;
+  border: 3px solid var(--ink);
+  border-radius: 14px;
+  background: #fff;
+  object-fit: contain;
+}
+.card-name { font-size: clamp(1rem, 3.8vw, 1.25rem); font-weight: 900; }
+
+/* Estrella cuando el dibujo ya está terminado */
+.card-star {
+  position: absolute;
+  top: -12px;
+  right: -10px;
+  display: grid;
+  place-items: center;
+  width: 42px;
+  height: 42px;
+  border: 3px solid var(--ink);
+  border-radius: 50%;
+  background: var(--c2);
+  font-size: 1.4rem;
+  box-shadow: 0 3px 0 var(--ink);
+  transform: rotate(12deg);
+}
